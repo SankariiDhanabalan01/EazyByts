@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Responsive TOUR & TRAVEL agency website design</title>
+
+        <link  rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+        <!---Font awsome cdn link-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+        <!----Custom css file link---->
+        <link rel="stylesheet" href="C:\Users\SANKARII DHANABALAN\OneDrive\Desktop\intern\css\style.css">
+    </head>
+    <body>
+
+        <!----Header section starts-->
+
+        <header>
+
+           <div id="menu-bar" class="fas fa-bars"></div>
+
+
+           <a href="#" class="logo"><span >T</span>ravel</a>
+
+           <nav class="navbar">
+               <a href="#home">Home</a>
+               <a href="#book">Book</a>
+               <a href="#packages">Packages</a>
+               <a href="#services">Services</a>
+               <a href="#gallery">Gallery</a>
+               <a href="#review">Review</a>
+               <a href="#contact">Contact</a>
+           </nav>
+
+           <div class="icons">
+               <i class="fas fa-search" id="search-btn"></i>
+               <i class="fas fa-user" id="login-btn"></i>
+           </div>
+
+           <form action="" class="search-bar-container">
+             <input type="search" id="search-bar" placeholder="search....">
+             <label for="search-bar" class="fas fa-search"></label>
+           </form>
+
+        </header>
+        <!----Header section ends-->
+
+        <!----Login form container-->
+
+        <div class="login-form-container">
+
+            <i class="fas fa-time" id="form-close"></i>
+
+            <form action="">
+                <h3>Login</h3>
+                <input type="e-mail" class="box" placeholder="Enter your e-mail">
+                <input type="password" class="box" placeholder="Enter your password">
+                <input type="submit" value="login now" class="btn">
+                <input type="checkbox" id="remember">
+                <label for="remember">Remember me</label>
+                <p>forget password? <a href="#">Click here</a></p>
+                <p>don't have an account? <a href="#">Register now</a></p>
+            </form>
+
+        </div>
+
+        <!----home section starts-->
+
+        <section class="home" id="home">
+            <div class="content">
+              <h3>Adventure is worthwhile</h3>
+              <p>Discover new places with us,Adventure awaits</p>
+              <a href="#" class="btn">Discover more</a>
+            </div>
+
+            <div class="controls">
+                <span class="vid-btn active" data-src="C:\Users\SANKARII DHANABALAN\OneDrive\Desktop\intern\images\vid1.mp4"></span>
+                <span class="vid-btn" data-src="C:\Users\SANKARII DHANABALAN\OneDrive\Desktop\intern\images\vid2.mp4"></span>
+                <span class="vid-btn" data-src="C:\Users\SANKARII DHANABALAN\OneDrive\Desktop\intern\images\vid3.mp4"></span>
+                <span class="vid-btn" data-src="C:\Users\SANKARII DHANABALAN\OneDrive\Desktop\intern\images\vid4.mp4"></span>
+                <span class="vid-btn" data-src="C:\Users\SANKARII DHANABALAN\OneDrive\Desktop\intern\images\vid5.mp4"></span>
+            </div>
+
+            <div class="video-container">
+               <video src="C:\Users\SANKARII DHANABALAN\OneDrive\Desktop\intern\images\vid1.mp4" id="video-slider" loop autoplay muted></video>
+              
+            </div>
+
+        </section>
+
+        <!----home section ends-->
+
+        <!----book section starts-->
+
+        <section class="book" id="book">
+
+            <h1 class="heading">
+                <span>b</span>
+                <span>o</span>
+                <span>o</span>
+                <span>k</span>
+                <span class="space"></span>
+                <span>n</span>
+                <span>o</span>
+                <span>w</span>
+            </h1>
+
+            <div class="row">
+
+                <div class="image">
+                    <img src="C:\Users\SANKARII DHANABALAN\OneDrive\Desktop\intern\images\book.png" alt="">
+                </div>
+
+                <form action="">
+                    <div class="inputBox">
+                        <h3>Where to</h3>
+                        <input type="text" placeholder="place name">
+                    </div>
+
+                    <div class="inputBox">
+                        <h3>how many</h3>
+                        <input type="number" placeholder="number of guests">
+                    </div>
+
+                    <div class="inputBox">
+                        <h3>arrivals</h3>
+                        <input type="date">
+                    </div>
+
+                    <div class="inputBox">
+                        <h3>leaving</h3>
+                        <input type="date">
+                    </div>
+                    <input type="submit" class="btn" value="book now">
+                </form>
+
+            </div>
+
+        </section>
+
+        <!----book section ends-->
+
+        <!----packages section starts-->
+
+        <section class="packages" id="packages">
+
+            <h1 class="heading">
+                <span>p</span>
+                <span>a</span>
+                <span>c</span>
+                <span>k</span>
+                <span>a</span>
+                <span>g</span>
+                <span>e</span>
+                <span>s</span>
+            </h1>
+
+            <div class="box-container">
+
+                <div class="box">
+                    <image src="C:\Users\SANKARII DHANABALAN\OneDrive\Desktop\intern\images\p-1.jpeg" alt="">
+                    <div class="content">
+                        <h3><i class="fas fa-map-marker-alt"></i> Delhi </h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.!</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="price"> $120.00 <span> $180.00</span></div>
+                        <a href="#" class="btn">book now</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <image src="C:\Users\SANKARII DHANABALAN\OneDrive\Desktop\intern\images\p-2.jpeg" alt="">
+                        <div class="content">
+                            <h3><i class="fas fa-map-marker-alt"></i> Amsterdam </h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.!</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="price">$120.00 <span>$180.00</span></div>
+                            <a href="#" class="btn">book now</a>
+                        </div>
+                </div>
+
+                <div class="box">
+                     <image src="C:\Users\SANKARII DHANABALAN\OneDrive\Desktop\intern\images\p-3.jpeg" alt="">
+                            <div class="content">
+                                <h3><i class="fas fa-map-marker-alt"></i> Paris </h3>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.!</p>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <div class="price">$120.00 <span>$180.00</span></div>
+                                <a href="#" class="btn">book now</a>
+                           </div>
+                </div>
+
+                <div class="box">
+                                <image src="C:\Users\SANKARII DHANABALAN\OneDrive\Desktop\intern\images\p-4.jpeg" alt="">
+                                <div class="content">
+                                    <h3><i class="fas fa-map-marker-alt"></i> North India </h3>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.!</p>
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <div class="price">$120.00 <span>$180.00</span></div>
+                                    <a href="#" class="btn">book now</a>
+                                </div>
+                </div> 
+
+                <div class="box">
+                                    <image src="C:\Users\SANKARII DHANABALAN\OneDrive\Desktop\intern\images\p-5.jpeg" alt="">
+                                    <div class="content">
+                                        <h3><i class="fas fa-map-marker-alt"></i> South India </h3>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.!</p>
+                                        <div class="stars">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                        <div class="price">$120.00 <span>$180.00</span></div>
+                                        <a href="#" class="btn">book now</a>
+                                    </div>
+                </div>
+
+                <div class="box">
+                    <image src="C:\Users\SANKARII DHANABALAN\OneDrive\Desktop\intern\images\p-6.jpeg" alt="">
+                    <div class="content">
+                        <h3><i class="fas fa-map-marker-alt"></i> Japan </h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.!</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="price">$120.00 <span>$180.00</span></div>
+                        <a href="#" class="btn">book now</a>
+                    </div>
+                </div>    
+            </div>
+
+        </section>
+
+        <!----packages section ends-->
+
+        <!----services section starts-->
+
+        <section class="services" id="services">
+
+            <h1 class="heading">
+                <span>s</span>
+                <span>e</span>
+                <span>r</span>
+                <span>v</span>
+                <span>i</span>
+                <span>c</span>
+                <span>e</span>
+                <span>s</span>
+            </h1>
+
+            <div class="box-container">
+                <div class="box">
+                   <i class="fas fa-hotel"></i>
+                   <h3>Affordable hotels</h3>
+                   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime vero minus accusamus corrupti, distinctio.! </p>
+                </div>
+
+                <div class="box">
+                    <i class="fas fa-utensils"></i>
+                    <h3>Food and Drinks</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime vero minus accusamus corrupti, distinctio.! </p>
+                 </div>
+
+                 <div class="box">
+                    <i class="fas fa-bullhorn"></i>
+                    <h3>Safety guide</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime vero minus accusamus corrupti, distinctio.! </p>
+                 </div>
+
+                 <div class="box">
+                    <i class="fas fa-globe-asia"></i>
+                    <h3>Around the world</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime vero minus accusamus corrupti, distinctio.! </p>
+                 </div>
+
+                 <div class="box">
+                    <i class="fas fa-plane"></i>
+                    <h3>Fastest travel</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime vero minus accusamus corrupti, distinctio.! </p>
+                 </div>
+
+                 <div class="box">
+                    <i class="fas fa-hiking"></i>
+                    <h3>Adventures</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime vero minus accusamus corrupti, distinctio.! </p>
+                 </div>
+            </div>
+
+
+        </section>
+
+        <!----services section ends-->
+
+         <!----Gallery section Starts-->
+         
+         <section class="gallery" id="gallery">
+
+            <h1 class="heading">
+                <span>g</span>
+                <span>a</span>
+                <span>l</span>
+                <span>l</span>
+                <span>e</span>
+                <span>r</span>
+                <span>y</span>
+            </h1>
+
+            <div class="box-container">
+                <div class="box">
+                    <img src="C:\Users\SANKARII DHANABALAN\OneDrive\Desktop\intern\images\g-1.jpeg" alt="">
+                    <div class="content">
+                        <h3>Amazing places</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum accusantium, sed minus quo, quos qui delectus..!!</p>
+                        <a href="#" class="btn">See more</a>
+                    </div>
+                </div>
+
+                    <div class="box">
+                        <img src="C:\Users\SANKARII DHANABALAN\OneDrive\Desktop\intern\images\g-2.jpeg" alt="">
+                        <div class="content">
+                            <h3>Amazing places</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum accusantium, sed minus quo, quos qui delectus..!!</p>
+                            <a href="#" class="btn">See more</a>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="C:\Users\SANKARII DHANABALAN\OneDrive\Desktop\intern\images\g-3.jpeg" alt="">
+                        <div class="content">
+                            <h3>Amazing places</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum accusantium, sed minus quo, quos qui delectus..!!</p>
+                            <a href="#" class="btn">See more</a>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="C:\Users\SANKARII DHANABALAN\OneDrive\Desktop\intern\images\g-4.jpeg" alt="">
+                        <div class="content">
+                            <h3>Amazing places</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum accusantium, sed minus quo, quos qui delectus..!!</p>
+                            <a href="#" class="btn">See more</a>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="C:\Users\SANKARII DHANABALAN\OneDrive\Desktop\intern\images\g-5.jpeg" alt="">
+                        <div class="content">
+                            <h3>Amazing places</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum accusantium, sed minus quo, quos qui delectus..!!</p>
+                            <a href="#" class="btn">See more</a>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="C:\Users\SANKARII DHANABALAN\OneDrive\Desktop\intern\images\g-6.jpeg" alt="">
+                        <div class="content">
+                            <h3>Amazing places</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum accusantium, sed minus quo, quos qui delectus..!!</p>
+                            <a href="#" class="btn">See more</a>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="C:\Users\SANKARII DHANABALAN\OneDrive\Desktop\intern\images\g-7.jpeg" alt="">
+                        <div class="content">
+                            <h3>Amazing places</h3>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum accusantium, sed minus quo, quos qui delectus..!!</p>
+                            <a href="#" class="btn">See more</a>
+                        </div>Lorem
+                    </div>
+
+                    <div class="box">
+                        <img src="C:\Users\SANKARII DHANABALAN\OneDrive\Desktop\intern\images\g-8.jpeg" alt="">
+                        <div class="content">
+                            <h3>Amazing places</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum accusantium, sed minus quo, quos qui delectus..!!</p>
+                            <a href="#" class="btn">See more</a>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="C:\Users\SANKARII DHANABALAN\OneDrive\Desktop\intern\images\g-9.jpeg" alt="">
+                        <div class="content">
+                            <h3>Amazing places</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum accusantium, sed minus quo, quos qui delectus..!!</p>
+                            <a href="#" class="btn">See more</a>
+                        </div>
+                    </div>
+
+                </div>
+
+         </section>
+          <!----Gallery section ends-->
+
+           <!----Review section starts-->     
+          <section class="review" id="review">
+
+            <h1 class="heading">
+                <span>r</span>
+                <span>e</span>
+                <span>v</span>
+                <span>i</span>
+                <span>e</span>
+                <span>w</span>
+            </h1>
+
+            <div class="swiper-container review-slider">
+
+                <div class="swiper-wrapper">
+
+                    <div class="slider">
+                        <div class="box">
+                            <img src="C:\Users\SANKARII DHANABALAN\OneDrive\Desktop\intern\images\pic-5.jpeg" alt="">
+                            <h3>Maitreyi</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et itaque voluptatem voluptatum odit sapiente vero veniam commodi, repellat consectetur similique voluptatibus accusamus neque, beatae soluta nemo tempora excepturi dolorem maiores.</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                        <div class="slider">
+                            <div class="box">
+                                <img src="C:\Users\SANKARII DHANABALAN\OneDrive\Desktop\intern\images\pic-3.jpeg" alt="">
+                                <h3>Noah</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et itaque voluptatem voluptatum odit sapiente vero veniam commodi, repellat consectetur similique voluptatibus accusamus neque, beatae soluta nemo tempora excepturi dolorem maiores.</p>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="slider">
+                            <div class="box">
+                                <img src="C:\Users\SANKARII DHANABALAN\OneDrive\Desktop\intern\images\pic-1.jpeg" alt="">
+                                <h3>Elizebeth</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et itaque voluptatem voluptatum odit sapiente vero veniam commodi, repellat consectetur similique voluptatibus accusamus neque, beatae soluta nemo tempora excepturi dolorem maiores.</p>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="slider">
+                            <div class="box">
+                                <img src="C:\Users\SANKARII DHANABALAN\OneDrive\Desktop\intern\images\pic-4.jpeg" alt="">
+                                <h3>Paxton</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et itaque voluptatem voluptatum odit sapiente vero veniam commodi, repellat consectetur similique voluptatibus accusamus neque, beatae soluta nemo tempora excepturi dolorem maiores.</p>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            </section>
+            <!----Review section ends-->
+
+             <!----Contact section starts-->
+
+             <section class="contact">
+
+                <h1 class="heading">
+                    <span>c</span>
+                    <span>o</span>
+                    <span>n</span>
+                    <span>t</span>
+                    <span>a</span>
+                    <span>c</span>
+                    <span>t</span>
+                </h1>
+
+                <div class="row">
+                    <div class="image">
+                        <img src="C:\Users\SANKARII DHANABALAN\OneDrive\Desktop\intern\images\contact.jpg" alt="">
+                    </div>
+
+                    <form action="">
+                        <div class="inputBox">
+                            <input type="text" placeholder="name">
+                            <input type="e-mail" placeholder="e-mail">
+                        </div>
+
+                        <div class="inputBox">
+                            <input type="number" placeholder="number">
+                            <input type="text" placeholder="subject">
+                        </div>
+                        <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+                        <input type="submit" class="btn" value="send message">
+                    </form>
+                </div>
+             </section>
+
+            <!----Contact section ends-->
+
+            <!----brand section-->
+
+            <section class="brand-container">
+
+                <div class="swiper-container brand-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="C:\Users\SANKARII DHANABALAN\OneDrive\Desktop\intern\images\1.png" alt=""></div>
+                        <div class="swiper-slide"><img src="C:\Users\SANKARII DHANABALAN\OneDrive\Desktop\intern\images\2.png" alt=""></div>
+                        <div class="swiper-slide"><img src="C:\Users\SANKARII DHANABALAN\OneDrive\Desktop\intern\images\3.png" alt=""></div>
+                        <div class="swiper-slide"><img src="C:\Users\SANKARII DHANABALAN\OneDrive\Desktop\intern\images\4.png"alt=""></div>
+                        <div class="swiper-slide"><img src="C:\Users\SANKARII DHANABALAN\OneDrive\Desktop\intern\images\5.png" alt=""></div>
+                        <div class="swiper-slide"><img src="C:\Users\SANKARII DHANABALAN\OneDrive\Desktop\intern\images\6.png" alt=""></div>
+                    </div>
+                </div>
+
+            </section>
+            
+            <!----Footer section starts-->
+
+            <section class="footer">
+
+                <div class="box-container">
+                    <div class="box">
+                        <h3>About us</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto in eos voluptatem iste facilis unde incidunt blanditiis omnis dolor libero.</p>
+                    </div>
+
+                    <div class="box">
+                        <h3>Branch locations</h3>
+                        <a href="#">India</a>
+                        <a href="#">USA</a>
+                        <a href="#">Japan</a>
+                        <a href="#">France</a>
+                        <a href="#">UK</a>
+                    </div>
+
+                    <div class="box">
+                        <h3>Quick links</h3>
+                        <a href="#">Home</a>
+                        <a href="#">Book</a>
+                        <a href="#">Packages</a>
+                        <a href="#">Services</a>
+                        <a href="#">Gallery</a>
+                        <a href="#">Review</a>
+                        <a href="#">Contact</a>
+                    </div>
+
+                    <div class="box">
+                        <h3>Follow us</h3>
+                        <a href="#">Facebook</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">Twitter</a>
+                        <a href="#">LinkedIn</a>
+                    </div>
+                </div>
+
+                <h1 class="credit">created by <span> Sankarii Dhanabalan</span> | all rights reserved!|</h1>
+            </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-----Custom js file link-->
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+        <script src="C:\Users\SANKARII DHANABALAN\OneDrive\Desktop\intern\js\script.js"></script>
+
+    </body>
+</html>
